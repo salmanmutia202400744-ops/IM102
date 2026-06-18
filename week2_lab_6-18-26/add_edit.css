@@ -1,0 +1,147 @@
+/* Page */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 20px;
+}
+
+
+/* Main Form Box */
+
+.form-container {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Title */
+
+.form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+
+/* Labels */
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* Text Inputs */
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+/* Dropdowns */
+
+select.form-group {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: white;
+}
+
+
+/* Textarea */
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+
+/* Focus Effect */
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Spacing Between Fields */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+/* Buttons */
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+/* Save Button */
+
+.btn {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+
+/* Cancel Button */
+
+.btn-secondary {
+    background: #777;
+}
+
+.btn-secondary:hover {
+    background: #999;
+}
+
+.top-actions {
+    margin-bottom: 15px;
+}
+
+.add-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.add-btn:hover {
+    background: #555;
+}
