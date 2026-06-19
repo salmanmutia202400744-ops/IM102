@@ -1,0 +1,254 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 20px;
+    background: #f5f5f5;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+ul li a {
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+ul li a.active {
+    background: #333;
+    color: white;
+}
+
+.top-actions {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.add-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Page Title */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Filter Form */
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form input[type="text"],
+form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    min-width: 200px;
+}
+
+form button, 
+form .report a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover,
+form .report a:hover {
+    background: #555;
+}
+
+form .report {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+/* Summary Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.card {
+    background: #ffffff;
+    border-left: 5px solid #333;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+.card p {
+    margin-top: 8px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Table Style Rules */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+}
+
+th {
+    background: #333;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+tr:nth-child(even) {
+    background: #fafafa;
+}
+
+tr:hover {
+    background: #f0f0f0;
+}
+
+/* Table Button Container Alignment */
+.action-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+/* FIXED ACTION BUTTON COMBINATION */
+.edit {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #E0E0E0;      /* Neutral Secondary Gray */
+    color: #212121;          /* High contrast dark text */
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.edit:hover {
+    background: #D5D5D5;
+}
+
+.delete {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #db0e0e;      /* Warning Safety Red */
+    color: white;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+.edit {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #db0e0e;      /* Warning Safety Red */
+    color: white;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.delete:hover {
+    background: #b50b0b;
+}
+
+/* Low Stock Highlight */
+.low-stock {
+    background-color: #ffe5e5 !important;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+/* Product Count */
+.count {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: right;
+    color: #333;
+}
+
+/* No Results Row */
+td[colspan="6"] {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    padding: 20px;
+}
+
+.add-btn:hover {
+    background: #555;
+}
+
+.edit{
+        display: inline-block;
+    padding: 6px 14px;
+    background: #13e035;     
+    color: white;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    align-items: center;
+}
