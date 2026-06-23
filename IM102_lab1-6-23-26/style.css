@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+}
+
+.container{
+    width:100%;
+    max-width:420px;
+    background:#fff;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.logo h1{
+    color:#1e3c72;
+    font-size:28px;
+}
+
+.logo p{
+    color:#777;
+    font-size:14px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#333;
+}
+
+.form-group{
+    margin-bottom:18px;
+}
+
+label{
+    display:block;
+    margin-bottom:6px;
+    color:#555;
+    font-weight:600;
+}
+
+input{
+    width:100%;
+    padding:12px 15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    outline:none;
+    transition:.3s;
+}
+
+input:focus{
+    border-color:#2a5298;
+    box-shadow:0 0 5px rgba(42,82,152,.3);
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#2a5298;
+    color:#fff;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1e3c72;
+}
+
+.error{
+    background:#ffe5e5;
+    color:#d60000;
+    padding:10px;
+    border-radius:8px;
+    margin-bottom:15px;
+    text-align:center;
+}
+
+.success{
+    background:#e6fff0;
+    color:#008a2e;
+    padding:10px;
+    border-radius:8px;
+    margin-bottom:15px;
+    text-align:center;
+}
+
+.auth-link{
+    text-align:center;
+    margin-top:15px;
+    color:#666;
+}
+
+.auth-link a{
+    color:#2a5298;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.auth-link a:hover{
+    text-decoration:underline;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.btn-add{
+    background:#2a5298;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.btn-add:hover{
+    background:#1e3c72;
+}
+
+.badge{
+    background:#2a5298;
+    color:white;
+    padding:5px 12px;
+    border-radius:20px;
+}
+
+.low-stock{
+    background:#ffdddd;
+    color:#c62828;
+    padding:4px 10px;
+    border-radius:20px;
+    font-weight:bold;
+}
